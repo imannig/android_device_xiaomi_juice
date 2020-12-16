@@ -63,3 +63,7 @@ persist.device_config.configuration.disable_rescue_party=true
 # Elixir 
 ro.elixir.maintainer=Ansaria
 org.elixir.device=Poco M3 & Redmi 9T
+
+# Transcoding related property.
+debug.media.transcoding.codec_max_operating_rate_720P=60 
+debug.media.transcoding.codec_max_operating_rate_1080P=60
