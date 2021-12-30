@@ -1381,5 +1381,9 @@
     which we the system will not show crash, ANR,
          etc. dialogs. --> 
     <string name="config_appsNotReportingCrashes" translatable="false">com.google.android.tts</string>
+
+    <!-- Whether to show the Preference for Adaptive connectivity -->
+    <bool name="config_show_adaptive_connectivity">false</bool>
+
 </resources>
 
