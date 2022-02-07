@@ -247,3 +247,11 @@ PRODUCT_PACKAGES += \
     TelephonyResCommon \
     WifiResCommon \
     SettingsProviderOverlayJuice
+
+# Doze
+PRODUCT_PACKAGES += \
+    XiaomiDoze
+
+#  Parts
+PRODUCT_PACKAGES += \
+    XiaomiParts
