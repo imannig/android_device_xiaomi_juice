@@ -35,6 +35,7 @@ debug.sf.enable_hwc_vds=0
 debug.sdm.support_writeback=0
 debug.enable.sglscale=1
 debug.egl.hw=1
+debug.hwui.use_buffer_age=false
 debug.mdpcomp.logs=0
 persist.sys.force_sw_gles=0
 persist.sys.scrollingcache=1
