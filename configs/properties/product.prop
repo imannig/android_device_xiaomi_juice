@@ -55,6 +55,12 @@ persist.device_config.runtime_native_boot.iorap_readahead_enable=true
 ro.config.media_vol_steps=15
 vendor.audio.offload.buffer.size.kb=256
 
+# Memory optimizations
+ro.vendor.qti.sys.fw.bservice_enable=true
+ro.vendor.qti.sys.fw.bservice_limit=5
+ro.vendor.qti.sys.fw.bservice_age=5000
+ro.vendor.qti.am.reschedule_service=true
+
 # Power-saving props
 ro.vendor.use_data_netmgrd=true
 ro.vold.umsdirtyratio=20
