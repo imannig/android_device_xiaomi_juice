@@ -36,6 +36,7 @@ debug.sdm.support_writeback=0
 debug.enable.sglscale=1
 debug.egl.hw=1
 debug.mdpcomp.logs=0
+persist.sys.force_sw_gles=0
 persist.sys.scrollingcache=1
 debug.sf.recomputecrop=0
 vendor.display.disable_rotator_downscale=1
