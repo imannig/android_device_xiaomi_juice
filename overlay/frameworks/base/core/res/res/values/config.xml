@@ -37,7 +37,7 @@
      <bool name="config_bluetooth_le_peripheral_mode_supported">false</bool>
 
     <!-- Whether camera shutter sound is forced or not  (country specific). -->
-     <bool name="config_camera_sound_forced">true</bool>
+     <bool name="config_camera_sound_forced">false</bool>
 
     <!-- Flag specifying whether VoLTE should be available for carrier: independent of
          carrier provisioning. If false: hard disabled. If true: then depends on carrier
@@ -209,7 +209,7 @@
      <bool name="config_useDevInputEventForAudioJack">false</bool>
 
     <!-- Enable video pause workaround when enabling/disabling the camera. -->
-     <bool name="config_useVideoPauseWorkaround">false</bool>
+     <bool name="config_useVideoPauseWorkaround">true</bool>
 
     <!-- Set to true if the wifi display supports compositing content stored
          in gralloc protected buffers.  For this to be true, there must exist
@@ -1377,5 +1377,9 @@
          2: gestures only for back, home and overview -->
     <integer name="config_navBarInteractionMode">2</integer>
 
+    <!-- List of comma separated package names for 
+         which we the system will not show crash, ANR,
+         etc. dialogs. --> 
+    <string name="config_appsNotReportingCrashes">com.google.android.tts</string>
 </resources>
 
