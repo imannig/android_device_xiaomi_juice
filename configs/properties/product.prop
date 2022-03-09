@@ -47,6 +47,8 @@ ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 
 # IORap
+ro.iorapd.enable=true
+persist.device_config.runtime_native_boot.iorap_perfetto_enable=true
 persist.device_config.runtime_native_boot.iorap_readahead_enable=true
 
 # Media
